@@ -1,0 +1,20 @@
+{
+  "name": "jest-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for an ES6 project tested by Jest.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --config ./jest.config.js"
+  },
+  "keywords": [],
+  "author": "Colin Gorrie <colin@colingorrie.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "7.2.2",
+    "@babel/preset-env": "7.2.3",
+    "@babel/plugin-proposal-class-properties": "7.2.3",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "23.6.0",
+    "jest": "23.6.0"
+  }
+}
